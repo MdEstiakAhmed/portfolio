@@ -170,6 +170,12 @@ header{
 	color: #278ea5;
 }
 
+@media(max-width:320px){
+	.changing-part{
+		font-size: 30px;
+	}
+}
+
 .changing-text{
 	display: inline-block;
 	animation: rotate 5s infinite;	/*set animation time*/
@@ -203,7 +209,8 @@ header{
 
 .effect-text{
 	font-family: monospace;
-	font-size: 40px;
+	font-size: 50px;
+	font-weight: 800;
 	text-transform: capitalize;
 	white-space: nowrap;
 	color: transparent;
@@ -250,12 +257,39 @@ header{
 @media(max-width:768px){
 	.effect-text{
 		font-size: 45px;
-		margin-top: -20px;
+		font-weight: 800;
+		margin-top: 140px;
 	}
 }
 @media(max-width:576px){
 	.effect-text{
-		display: none;
+		font-size: 30px;
+		font-weight: 800;
+		margin-top: 140px;
+	}
+}
+
+@media(max-width:420px){
+	.effect-text{
+		font-size: 28px;
+		font-weight: 800;
+		margin-top: 100px;
+	}
+}
+
+@media(max-width:376px){
+	.effect-text{
+		font-size: 25px;
+		font-weight: 800;
+		margin-top: 80px;
+	}
+}
+
+@media(max-width:320px){
+	.effect-text{
+		font-size: 20px;
+		font-weight: 800;
+		margin-top: 140px;
 	}
 }
 /*about me design end*/

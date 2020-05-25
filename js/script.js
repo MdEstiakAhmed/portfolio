@@ -50,3 +50,11 @@ function show(){
   }, 2000);
 }
 // contact form script end
+
+
+
+// set copyright year start
+var d = new Date();
+var n = d.getFullYear();
+document.getElementById("copyright-year").textContent = n;
+// set copyright yrar end

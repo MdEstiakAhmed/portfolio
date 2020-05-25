@@ -254,11 +254,35 @@ header{
 	}
 }
 
+@media(max-width:1920px){
+	.effect-text{
+		font-size: 55px;
+		font-weight: 800;
+		margin-top: 90px;
+	}
+}
+
+@media(max-width:1400px){
+	.effect-text{
+		font-size: 55px;
+		font-weight: 800;
+		margin-top: 140px;
+	}
+}
+
+@media(max-width:1200px){
+	.effect-text{
+		font-size: 45px;
+		font-weight: 800;
+		margin-top: 150px;
+	}
+}
+
 @media(max-width:768px){
 	.effect-text{
 		font-size: 45px;
 		font-weight: 800;
-		margin-top: 140px;
+		margin-top: 110px;
 	}
 }
 @media(max-width:576px){
@@ -281,7 +305,7 @@ header{
 	.effect-text{
 		font-size: 20px;
 		font-weight: 800;
-		margin-top: 110px;
+		margin-top: 130px;
 	}
 }
 
@@ -293,6 +317,22 @@ header{
 	}
 }
 /*about me design end*/
+
+
+
+/*project design start*/
+.project{
+	background-color: #071e3d;
+	padding: 50px 0;
+}
+
+.center{
+	margin: 0 auto;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+/*project design end*/
 
 
 

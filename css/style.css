@@ -437,3 +437,14 @@ footer{
 	}
 }
 /*footer design end*/
+
+/*about me design start*/
+.aboutme{
+	font-size: 30px;
+	color: black;
+}
+
+.aboutme:hover{
+	color: #278ea5;
+}
+/* about me design end*/

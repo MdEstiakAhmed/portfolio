@@ -1,4 +1,13 @@
  /**navbar design start*/
+ .logo{
+ 	color: #007bff;
+ }
+
+ .logo:hover{
+ 	color: #278ea5;
+    text-decoration: none;
+ }
+
  nav{
  	background-color: #071e3d;
  }
@@ -170,7 +179,7 @@ header{
 	color: #278ea5;
 }
 
-@media(max-width:320px){
+@media(max-width:576px){
 	.changing-part{
 		font-size: 30px;
 	}
@@ -331,6 +340,11 @@ header{
     display: block;
     width: 100%;
     margin-bottom: 20px;
+}
+
+
+.allprojects{
+	margin-top: 150px;
 }
 /*project design end*/
 

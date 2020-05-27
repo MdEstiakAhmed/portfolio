@@ -1,3 +1,13 @@
+// scrollbar add
+$("body").niceScroll({
+  cursorcolor:"#278ea5",
+  cursorwidth:"10px",
+  cursorborder: "none",
+  zindex: "auto",
+  scrollspeed: 60,
+});
+
+
 // contact form script start
 window.addEventListener("DOMContentLoaded", function() {
   // get the form elements defined in your form HTML above

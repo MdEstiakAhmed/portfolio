@@ -1,6 +1,19 @@
- /**navbar design start*/
+/*global start*/
+::selection{
+	color: #278ea5;
+	background-color: #071e3d;
+}
+
+#particles-js{
+	width: 100%;
+}
+/*global end*/
+
+/**navbar design start*/
  .logo{
  	color: #007bff;
+    font-size: 40px;
+    vertical-align: bottom;
  }
 
  .logo:hover{

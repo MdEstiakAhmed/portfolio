@@ -212,6 +212,12 @@ header{
 
 
 /*about me design start*/
+.skill-header{
+	background-color: #d3edff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
 .skill{
 	margin-top: 120px;
 }

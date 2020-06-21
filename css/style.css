@@ -225,6 +225,9 @@ header{
 
 
 /*about me design start*/
+.aboutme{
+	margin-top: 70px;
+}
 .skill-header{
 	background-color: #d3edff;
     padding: 10px;
@@ -235,23 +238,34 @@ header{
 	margin-top: 20px;
 }
 
+.typewriter-effect-body{
+	position: relative;
+}
+
+.parent{
+	position: relative !important;
+	margin-top: 35px;
+}
+.child{
+	position: absolute !important;
+	left: 50%;
+}
+
 .effect-text{
 	font-family: monospace;
 	font-size: 50px;
 	font-weight: 800;
-	text-transform: capitalize;
+	/*text-transform: capitalize;*/
 	white-space: nowrap;
 	color: transparent;
 	/*for get this part in the center. to move change the top and left value.*/
-	margin: 150px 0 0 0;
+	/*margin: 150px 0 0 0;*/
 	position: absolute;
-	top: 50%;
-	left: 50%;
 	transform: translate(-50%, -50%);
 }
 
 .effect-text::before{
-	content: "hi! i am md. estiak ahmed.";
+	content: "Hi! I am Md. Estiak Ahmed.";
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -260,7 +274,9 @@ header{
 	color: #278ea5;
 	overflow: hidden;
 	border-right: 3px solid white;
-	animation: typing 3.5s steps(22, end), blink-caret .75s step-end infinite;
+	animation: typing 5s steps(35, end), blink-caret 1s step-end infinite;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
 }
 
 @keyframes typing{
@@ -286,7 +302,6 @@ header{
 	.effect-text{
 		font-size: 55px;
 		font-weight: 800;
-		margin-top: 90px;
 	}
 }
 
@@ -294,7 +309,6 @@ header{
 	.effect-text{
 		font-size: 55px;
 		font-weight: 800;
-		margin-top: 140px;
 	}
 }
 
@@ -302,7 +316,6 @@ header{
 	.effect-text{
 		font-size: 45px;
 		font-weight: 800;
-		margin-top: 150px;
 	}
 }
 
@@ -310,14 +323,12 @@ header{
 	.effect-text{
 		font-size: 45px;
 		font-weight: 800;
-		margin-top: 110px;
 	}
 }
 @media(max-width:576px){
 	.effect-text{
 		font-size: 30px;
 		font-weight: 800;
-		margin-top: 140px;
 	}
 }
 
@@ -325,7 +336,6 @@ header{
 	.effect-text{
 		font-size: 28px;
 		font-weight: 800;
-		margin-top: 100px;
 	}
 }
 
@@ -333,7 +343,6 @@ header{
 	.effect-text{
 		font-size: 20px;
 		font-weight: 800;
-		margin-top: 130px;
 	}
 }
 
@@ -341,7 +350,6 @@ header{
 	.effect-text{
 		font-size: 20px;
 		font-weight: 800;
-		margin-top: 140px;
 	}
 }
 /*about me design end*/
